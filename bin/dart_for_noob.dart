@@ -13,7 +13,10 @@ class Microphone {
     name = 'Red';
     model = 1212;
   }
-
+  // setter and getter
+  String get getName => name;
+  set setName(String value) => name = value; 
+  
   void turnOn() {
     print('$name is on!');
   }
